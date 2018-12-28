@@ -39,7 +39,11 @@
     $('#time-control input').val(percent);
   }, 1000);
 
+<<<<<<< HEAD
   $('#volume-control input').on('input', function (event) {
+=======
+  $('#Volume-control input').on('input', function (event) {
+>>>>>>> assignment-11-volumecontrolrevised
     player.setVolume(event.target.value);
   });
 }
